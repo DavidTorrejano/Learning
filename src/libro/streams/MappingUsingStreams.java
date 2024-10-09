@@ -13,17 +13,13 @@ public class MappingUsingStreams {
         that way you can extract information or transform that object you are receiving and return a stream of the
         transformed object.
          */
-//        List<Integer> dishNames = menu.stream()
-//                .map(Dish::getName)
-//                .map(String::length)
-//                .toList();
-//        System.out.println(dishNames);
+        List<Integer> dishNames = menu.stream()
+                .map(Dish::getName)
+                .map(String::length)
+                .toList();
+        System.out.println(dishNames);
 
         List<String> words = Arrays.asList("Hand", "Rice", "Tomato", "Crocodile", "Rhino", "Tomato");
-
-        if (menu.stream().anyMatch(Dish::isVegetarian)) {
-                System.out.println("The menu is vegetarian friendly");
-        }
 
 
        List<Integer> length = words.stream()
