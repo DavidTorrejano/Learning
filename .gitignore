@@ -29,4 +29,4 @@ bin/
 .DS_Store
 
  ## Ignore Async
- /src/libro/parallel_and_performance/AsyncLogger.java
+ src/libro/parallel_and_performance/AsyncLogger.java
