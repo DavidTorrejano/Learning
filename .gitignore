@@ -30,3 +30,4 @@ bin/
 
  ## Ignore Async
 /src/libro/parallel_and_performance/AsyncLogger.java
+/src/libro/parallel_and_performance/SequentialSum.java
